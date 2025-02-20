@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kaos Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <header class="header">
+                <div class="hero">
+                    <h2 class="heading">Toko Kaos Online</h2>
+                    <p class="sub-heading">Kaos & T-Shirt</p>
+                </div>
+                <div class="features feature-1">
+                    <h4 class="price">IDR 250K</h4>
+                    <p class="item">Kaos</p>
+                </div>
+                <div class="features feature-2">
+                    <h4 class="price">IDR 150K</h4>
+                    <p class="item">T-Shirt</p>
+                </div>
+            </header>
+
+            <nav class="menu">
+                <div class="menu-toggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="brand">
+                    <h1>Toko Kaos Online</h1>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <section class="services">
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping for all orders
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>Promotion</h3>
+                    <p>Free shipping for all orders
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>Discount</h3>
+                    <p>Free shipping for all orders
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon"></div>
+                    <h3>Joint</h3>
+                    <p>Free shipping for all orders
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <h2>Gallery</h2>
+                <img src="https://picsum.photos/200/300?random=1" alt="">
+                <img src="https://picsum.photos/200/300?random=2" alt="">
+                <img src="https://picsum.photos/200/300?random=3" alt="">
+                <img src="https://picsum.photos/200/300?random=4" alt="">
+                <img src="https://picsum.photos/200/300?random=5" alt="">
+                <img src="https://picsum.photos/200/300?random=6" alt="">
+                <img src="https://picsum.photos/200/300?random=7" alt="">
+                <img src="https://picsum.photos/200/300?random=8" alt="">
+                <img src="https://picsum.photos/200/300?random=9" alt="">
+                <img src="https://picsum.photos/200/300?random=10" alt="">
+                <img src="https://picsum.photos/200/300?random=11" alt="">
+                <img src="https://picsum.photos/200/300?random=12" alt="">
+            </section>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('slide');
+            });
+        </script>
+
+        <div class="footer">Desain By
+            <a href="https://www.instagram.com/kangisa.maulana/">@Kang Isa
+        </a>
+    </div>
+</body>
+</html>
